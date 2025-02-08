@@ -4,7 +4,7 @@ Tags: market, export, yml, woocommerce, yandex market
 Donate link: http://yasobe.ru/na/market_exporter
 Requires at least: 5.6
 Tested up to: 6.7
-Stable tag: 2.0.21
+Stable tag: 2.0.22
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -67,10 +67,14 @@ WooCommerce также тестировался на последних верс
 
 == Changelog ==
 
+= 2.0.22 =
+* FIX: Улучшена проверка прав доступа при сохранении настроек
+
 = 2.0.21 =
 * NEW: Все ограничения на плагин сняты, платноq версии больше не существует ;-)
 * NEW: Фильтры атрибутов товара me_export_attribute_<имя_атрибута>
 * ENHANCE: Обновление библиотек
+* ENHANCE: Улучшена совместимость с новыми версиями React
 
 = 2.0.20 =
 * NEW: Фильтр me_export_product_link для изменения ссылки на товар
