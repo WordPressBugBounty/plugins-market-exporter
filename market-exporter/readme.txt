@@ -3,8 +3,8 @@ Contributors: vanyukov
 Tags: market, export, yml, woocommerce, yandex market
 Donate link: http://yasobe.ru/na/market_exporter
 Requires at least: 5.6
-Tested up to: 6.7
-Stable tag: 2.0.22
+Tested up to: 6.8
+Stable tag: 2.0.23
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,11 @@ WooCommerce также тестировался на последних верс
 4. Скриншот страницы настроек.
 
 == Changelog ==
+
+= 2.0.23 =
+* NEW: Добавлен фильтр me_product_description для изменения описания товара
+* NEW: Добавлен фильтр me_product_price для товаров со скидкой
+* FIX: Исправлена потенциальная уязвимость, позволяющая удалять файлы выгрузки
 
 = 2.0.22 =
 * FIX: Улучшена проверка прав доступа при сохранении настроек
